@@ -20,6 +20,9 @@ const Navbar: React.FC = () => {
         <View style={styles.card}>
           <Text style={styles.textCard}>Bienvenue sur RunIt !</Text>
         </View>
+        <View style={styles.cardLeft}>
+          <Text style={styles.textCardLeft}>Bienvenue sur RunIt !</Text>
+        </View>
     </ScrollView>
   );
 };
@@ -81,15 +84,28 @@ const styles = StyleSheet.create({
     fontWeight: 'light',
   },
   card:{
-    width: '45%',
+    width: '48%',
     padding: 10,
     borderRadius: 5,
     borderColor: '#fff',
-    marginLeft: '-55%',
+    marginLeft: '-51%',
     marginTop: '1%',
     backgroundColor: '#0d3b5b',
   },
   textCard:{
+    textAlign: 'center',
+    color: '#fff',
+  },
+  cardLeft:{
+    width: '48%',
+    padding: 10,
+    borderRadius: 5,
+    borderColor: '#fff',
+    marginLeft: '51%',
+    marginTop: '-9.6%',
+    backgroundColor: '#0d3b5b',
+  },
+  textCardLeft:{
     textAlign: 'center',
     color: '#fff',
   },
