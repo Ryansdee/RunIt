@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, StyleSheet, ImageSourcePropType, Text, ScrollView, Platform } from 'react-native';
+import { View, Image, StyleSheet, ImageSourcePropType, Text, ScrollView } from 'react-native';
 
 const logoImage: ImageSourcePropType = { uri: 'https://i.ibb.co/VNWjz3V/runit-3.png' };
 
@@ -15,14 +15,16 @@ const Navbar: React.FC = () => {
         <View style={styles.mainContent}>
           <Text style={styles.text}>Bienvenue sur RunIt !</Text>
         </View>
-        <Text style={styles.text2}> Votre application qui vous montrer tout les petit marathon !</Text>
+        <Text style={styles.text2}>Votre application qui vous montre tous les petits marathons !</Text>
       </View>
+      <View style={styles.cardsContainer}>
         <View style={styles.card}>
           <Text style={styles.textCard}>Bienvenue sur RunIt !</Text>
         </View>
-        <View style={styles.cardLeft}>
-          <Text style={styles.textCardLeft}>Bienvenue sur RunIt !</Text>
+        <View style={styles.card}>
+          <Text style={styles.textCard}>Bienvenue sur RunIt !</Text>
         </View>
+      </View>
     </ScrollView>
   );
 };
@@ -72,7 +74,6 @@ const styles = StyleSheet.create({
     marginLeft: '25%',
     textAlign: 'center',
     fontWeight: 'bold',
-    whiteSpace: 'pre-line'
   },
   text2: {
     fontSize: 20,
@@ -83,29 +84,23 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'light',
   },
-  card:{
+  cardsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '100%',
+    padding: 10,
+    marginVertical: 2,
+  },
+  card: {
     width: '48%',
     padding: 10,
     borderRadius: 5,
     borderColor: '#fff',
-    marginLeft: '-51%',
-    marginTop: '1%',
+    borderWidth: 1, // Adjust border width if needed
     backgroundColor: '#0d3b5b',
+    alignItems: 'center',
   },
-  textCard:{
-    textAlign: 'center',
-    color: '#fff',
-  },
-  cardLeft:{
-    width: '48%',
-    padding: 10,
-    borderRadius: 5,
-    borderColor: '#fff',
-    marginLeft: '51%',
-    marginTop: '-9.6%',
-    backgroundColor: '#0d3b5b',
-  },
-  textCardLeft:{
+  textCard: {
     textAlign: 'center',
     color: '#fff',
   },
