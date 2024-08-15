@@ -1,19 +1,16 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-
-import { TabBarIcon } from '@/components/navigation/TabBarIcon';
+import Ionicons from '@expo/vector-icons/Ionicons'; // Importez AntDesign ici
 import { Colors } from '@/constants/Colors';
-// On n'a plus besoin de `useColorScheme` ici, donc tu peux le retirer.
-// import { useColorScheme } from '@/hooks/useColorScheme';
+import { useColorScheme } from '@/hooks/useColorScheme';
 
 export default function TabLayout() {
-  // Force le thème à 'light'
-  const colorScheme = 'light'; 
+  const colorScheme = useColorScheme();
 
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme].tint,
+        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
       }}>
       <Tabs.Screen
@@ -21,16 +18,24 @@ export default function TabLayout() {
         options={{
           title: 'Home',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+            <Ionicons
+              name={focused ? 'home' : 'home-outline'}
+              size={24}
+              color={color}
+            />
           ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="informations"
         options={{
-          title: 'Explore',
+          title: 'Informations',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <Ionicons
+              name={focused ? 'information-circle-sharp' : 'information-circle-outline'}
+              size={24}
+              color={color}
+            />
           ),
         }}
       />

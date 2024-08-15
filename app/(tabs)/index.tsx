@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
           <Text style={styles.textCard}>Bienvenue sur RunIt !</Text>
         </View>
         <View style={styles.card}>
-          <Text style={styles.textCard}>Bienvenue sur RunIt !</Text>
+          <Text style={styles.textCard}>Ceci est un test !</Text>
         </View>
       </View>
     </ScrollView>
