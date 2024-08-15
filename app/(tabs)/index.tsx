@@ -1,70 +1,98 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import React from 'react';
+import { View, Image, StyleSheet, ImageSourcePropType, Text, ScrollView, Platform } from 'react-native';
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+const logoImage: ImageSourcePropType = { uri: 'https://i.ibb.co/VNWjz3V/runit-3.png' };
 
-export default function HomeScreen() {
+const Navbar: React.FC = () => {
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+    <ScrollView contentContainerStyle={styles.body}>
+      <View style={styles.navbar}>
+        <View style={styles.container}>
+          <Image source={logoImage} style={styles.smallLogo} />
+        </View>
+      </View>
+      <View style={styles.main}>
+        <View style={styles.mainContent}>
+          <Text style={styles.text}>Bienvenue sur RunIt !</Text>
+        </View>
+        <Text style={styles.text2}> Votre application qui vous montrer tout les petit marathon !</Text>
+      </View>
+        <View style={styles.card}>
+          <Text style={styles.textCard}>Bienvenue sur RunIt !</Text>
+        </View>
+    </ScrollView>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  titleContainer: {
+  body: {
+    flexGrow: 1,
+    alignItems: 'center',
+    paddingTop: 15, // Adds padding to the container
+  },
+  navbar: {
+    backgroundColor: '#fff',
+    paddingTop: 20,
+    paddingVertical: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 5,
+    width: '100%',
+    alignItems: 'center',
+  },
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  main: {
+    backgroundColor: '#0d3b5b',
+    width: '100%',
+    paddingVertical: 20,
+    paddingHorizontal: 10,
+  },
+  mainContent: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+  smallLogo: {
+    width: 60,
+    height: 60,
+    resizeMode: 'contain',
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+  text: {
+    fontSize: 20,
+    color: '#fff',
+    width: '50%',
+    marginLeft: '25%',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    whiteSpace: 'pre-line'
+  },
+  text2: {
+    fontSize: 20,
+    color: '#fff',
+    width: '60%',
+    marginLeft: '20%',
+    marginTop: '5%',
+    textAlign: 'center',
+    fontWeight: 'light',
+  },
+  card:{
+    width: '45%',
+    padding: 10,
+    borderRadius: 5,
+    borderColor: '#fff',
+    marginLeft: '-55%',
+    marginTop: '1%',
+    backgroundColor: '#0d3b5b',
+  },
+  textCard:{
+    textAlign: 'center',
+    color: '#fff',
   },
 });
+
+export default Navbar;

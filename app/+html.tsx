@@ -1,39 +1,40 @@
 import { ScrollViewStyleReset } from 'expo-router/html';
 import { type PropsWithChildren } from 'react';
+import './styles/global.css';
 
-/**
- * This file is web-only and used to configure the root HTML for every web page during static rendering.
- * The contents of this function only run in Node.js environments and do not have access to the DOM or browser APIs.
- */
 export default function Root({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/0913375870.js"></script>
 
-        {/*
-          Disable body scrolling on web. This makes ScrollView components work closer to how they do on native.
-          However, body scrolling is often nice to have for mobile web. If you want to enable it, remove this line.
-        */}
+        {/* Désactiver le défilement du corps sur le web */}
         <ScrollViewStyleReset />
 
-        {/* Using raw CSS styles as an escape-hatch to ensure the background color never flickers in dark-mode. */}
-        <style dangerouslySetInnerHTML={{ __html: responsiveBackground }} />
-        {/* Add any additional <head> elements that you want globally available on web... */}
+        {/* Styles pour forcer le mode clair */}
+        <style>
+          {`
+            body {
+              background-color: #fff !important; /* Forcer le fond blanc */
+              color: #000 !important; /* Forcer le texte noir */
+              --tw-bg-opacity: 1;
+              --tw-text-opacity: 1;
+            }
+            
+            @media (prefers-color-scheme: dark) {
+              body {
+                background-color: #fff !important;
+                color: #000 !important;
+              }
+            }
+          `}
+        </style>
       </head>
       <body>{children}</body>
     </html>
   );
 }
-
-const responsiveBackground = `
-body {
-  background-color: #fff;
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000;
-  }
-}`;

@@ -1,0 +1,56 @@
+body {
+    background-color: #fff !important;
+    color: #000 !important;
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+  
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
+    color: rgba(0, 0, 0, var(--tw-text-opacity)) !important;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+  }
+  
+ /* styles/global.css */
+ .image-container {
+  display: flex; /* Activer Flexbox */
+  flex-direction: column; /* Aligner les éléments en colonne */
+  justify-content: center; /* Centrer les éléments verticalement */
+  align-items: center; /* Centrer les éléments horizontalement */
+  height: 15vh; /* Hauteur du conteneur pour aligner verticalement */
+}
+
+.header-image {
+  height: 10rem; /* Hauteur de l'image */
+  width: auto; /* Largeur automatique pour conserver le ratio */
+  object-fit: cover; /* Couvrir tout le conteneur sans déformer l'image */
+}
+
+.new-view {
+  margin-top: 20px;
+  background-color: #78adce;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  display: flex; /* Activer Flexbox */
+  flex-direction: column; /* Aligner les éléments en colonne */
+  justify-content: center; /* Centrer les éléments verticalement */
+  align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.new-view-text {
+  color: #0d3b5b;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.new-image {
+  width: 100px;
+  height: 100px;
+}
