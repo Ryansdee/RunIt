@@ -11,23 +11,23 @@ export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
-      headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}>
+      headerImage={
+        <Image 
+          source={{ uri: 'https://i.ibb.co/VNWjz3V/runit-3.png' }} 
+          style={styles.headerImage}
+        />
+      }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Informations RunIt.</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
+      <ThemedText>Cette application prend les données de finishers.com</ThemedText>
+      <Collapsible title="C'est quoi finishers?">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+          C'est un site qui regroupe <ThemedText type="defaultSemiBold">TOUTES les semi-marathon</ThemedText>{' '}
+          dans le monde entier.
         </ThemedText>
-        <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+        <ExternalLink href="https://www.finishers.com/">
+          <ThemedText type="link">Finishers</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Android, iOS, and web support">
@@ -68,21 +68,13 @@ export default function TabTwoScreen() {
           <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Animations">
+      <Collapsible title="Créateur de l'application">
         <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText> library
-          to create a waving hand animation.
+          Bonjour je suis Ryansdee ! Cette application est le fruit d'une demande de ma soeur et de ma détermination. Je fait également des sites !
         </ThemedText>
-        {Platform.select({
-          ios: (
-            <ThemedText>
-              The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
-            </ThemedText>
-          ),
-        })}
+        <ExternalLink href="https://www.ryansdee.be/">
+          <ThemedText type="link">Site internet</ThemedText>
+        </ExternalLink>
       </Collapsible>
     </ParallaxScrollView>
   );
@@ -90,10 +82,10 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   headerImage: {
-    color: '#808080',
-    bottom: -90,
-    left: -35,
-    position: 'absolute',
+    width: '70%', // Adjust the width according to your needs
+    height: 240, // Adjust the height according to your needs
+    resizeMode: 'cover', // This makes the image cover the header area
+    marginLeft: '15%',
   },
   titleContainer: {
     flexDirection: 'row',

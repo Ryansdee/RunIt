@@ -4,7 +4,7 @@
     "slug": "RunIt",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "https://i.ibb.co/VNWjz3V/runit-3.png",
     "scheme": "myapp",
     "userInterfaceStyle": "light",
     "platforms": ["ios", "android", "web"],
