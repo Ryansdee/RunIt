@@ -7,11 +7,7 @@
     "icon": "https://i.ibb.co/VNWjz3V/runit-3.png",
     "scheme": "myapp",
     "userInterfaceStyle": "light",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -26,8 +22,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff",
         "userInterfaceStyle": "light"
-      },
-      "package": "RunIt.Ryansdee"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -41,14 +36,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "f3a29adc-44c5-4187-acc7-6e9f16c56434"
-      }
     }
   }
 }
