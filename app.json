@@ -7,7 +7,11 @@
     "icon": "https://i.ibb.co/VNWjz3V/runit-3.png",
     "scheme": "myapp",
     "userInterfaceStyle": "light",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -22,7 +26,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff",
         "userInterfaceStyle": "light"
-      }
+      },
+      "package": "RunIt.Ryansdee"
     },
     "web": {
       "bundler": "metro",
