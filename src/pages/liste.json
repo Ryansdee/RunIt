@@ -1,0 +1,744 @@
+[
+    {
+      "id": "great-breweries-marathon-2025",
+      "name": "Great Breweries Marathon",
+      "location": "Puurs",
+      "date": "2025-05-04",
+      "website": "https://greatbreweriesmarathon.be/en/",
+      "description": "Le Marathon des Grandes Brasseries accueillera 6000 coureurs et marcheurs pour sa septième édition le dimanche 5 mai 2025. Le départ et l'arrivée se font à la brasserie Duvel Moortgat.",
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km",
+        "25 km",
+        "17 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "maasmarathon-de-vise-2025",
+      "name": "Maasmarathon de Visé",
+      "location": "Visé",
+      "date": "2025-05-04",
+      "website": "https://schneiderelectricmaasmarathon.com/",
+      "description": "Un parcours transfrontalier unique au cœur de l'Europe, à travers la campagne belge et hollandaise, le long de routes tranquilles et de sentiers naturels le long de la Meuse.",
+      "charity": {
+        "isCharityEvent": true,
+        "organization": "Relais pour la Vie, memisa chc pawa (à confirmer)"
+      },
+      "distances": [
+        "42.195 km",
+        "21.0975 km",
+        "7 km",
+        "10 km",
+        "Kid's run"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "beer-lovers-marathon-2025",
+      "name": "Beer Lovers' Marathon",
+      "location": "Liège",
+      "date": "2025-05-18",
+      "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "la-nuit-des-flandres-2025-marathon",
+      "name": "La Nuit des Flandres (Marathon)",
+      "location": "Torhout",
+      "date": "2025-06-20",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-du-brabant-wallon-2025",
+      "name": "Marathon du Brabant Wallon",
+      "location": "Jodoigne",
+      "date": "2025-06-21",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-international-de-charleroi-metropole-2025",
+      "name": "Marathon International de Charleroi Métropole",
+      "location": "Charleroi",
+      "date": "2025-06-29",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-des-gueules-noires-2025",
+      "name": "Marathon des Gueules Noires",
+      "location": "Dour",
+      "date": "2025-06-29",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-des-hautes-fagnes-2025",
+      "name": "Marathon des Hautes Fagnes",
+      "location": "Sourbrodt",
+      "date": "2025-06-29",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-hesbaye-2025",
+      "name": "Marathon de Hesbaye",
+      "location": "Hannut",
+      "date": "2025-08-15",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "qbuild-arlon-marathon-2025",
+      "name": "QBuild Arlon Marathon",
+      "location": "Arlon",
+      "date": "2025-09-14",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+      {
+      "id": "in-flanders-fields-marathon-2025",
+      "name": "In Flanders Fields Marathon",
+      "location": "Dixmude",
+      "date": "2025-09-21",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "linker-oevert-marathon-2025",
+      "name": "Linker Oevert Marathon",
+      "location": "Anvers",
+      "date": "2025-09-21",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "nieuwpoort-marathon-2025",
+      "name": "Nieuwpoort Marathon",
+      "location": "Nieuport",
+      "date": "2025-09-28",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-bruges-2025",
+      "name": "Marathon de Bruges",
+      "location": "Bruges",
+      "date": "2025-10",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-d-anvers-2025",
+      "name": "Marathon d'Anvers",
+      "location": "Anvers",
+      "date": "2025-10",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-spa-francorchamps-2026",
+      "name": "Marathon de Spa-Francorchamps",
+      "location": "Stavelot",
+      "date": "2026-03",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-gand-2026",
+      "name": "Marathon de Gand",
+      "location": "Gand",
+      "date": "2026-03",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "baloise-marathon-de-namur-2026",
+      "name": "Baloise Marathon de Namur",
+      "location": "Namur",
+      "date": "2026-04",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "european-running-championships-marathon-2026",
+      "name": "European Running Championships Marathon",
+      "location": "Bruxelles",
+      "date": "2026-04",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-bruxelles-tbd",
+      "name": "Marathon de Bruxelles",
+      "location": "Bruxelles",
+      "date": "TBD",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "42.195 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+       "id": "knokke-run-2025",
+      "name": "Knokke Run (Semi-Marathon)",
+      "location": "Knocke-Heist",
+      "date": "2025-05-01",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "semi-marathon-de-l-ourse-au-profit-du-televie-2025",
+      "name": "Semi Marathon de l'Ourse au profit du Télévie",
+      "location": "Saint-Ghislain",
+      "date": "2025-05-04",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": true,
+        "organization": "Télévie"
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "maasmarathon-de-vise-2025-semi",
+      "name": "Maasmarathon de Visé (Semi-Marathon)",
+      "location": "Visé",
+      "date": "2025-05-04",
+      "website": "https://schneiderelectricmaasmarathon.com/",
+      "description": "Le Schneider Electric Maasmarathon est un parcours unique au coeur de l'Europe. La particularité du semi est son tracé plat et très rapide.",
+      "charity": {
+        "isCharityEvent": true,
+        "organization": "Relais pour la Vie, memisa chc pawa (à confirmer)"
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+     {
+      "id": "halvemarathon-nijlen-2025",
+      "name": "HalveMarathon Nijlen",
+      "location": "Nijlen",
+      "date": "2025-06-01",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "la-nuit-des-flandres-2025-semi",
+      "name": "La Nuit des Flandres (Semi-Marathon)",
+      "location": "Torhout",
+      "date": "2025-06-20",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-du-brabant-wallon-2025-semi",
+      "name": "Marathon du Brabant Wallon (Semi-Marathon)",
+      "location": "Jodoigne",
+      "date": "2025-06-21",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-international-de-charleroi-metropole-2025-semi",
+      "name": "Marathon International de Charleroi Métropole (Semi-Marathon)",
+      "location": "Charleroi",
+      "date": "2025-06-29",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-des-hautes-fagnes-2025-semi",
+      "name": "Marathon des Hautes Fagnes (Semi-Marathon)",
+      "location": "Sourbrodt",
+      "date": "2025-06-29",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "estafette-halve-marathon-het-gielsbos-2025",
+      "name": "Estafette Halve Marathon \"Het GielsBos\"",
+      "location": "Gierle",
+      "date": "2025-08-02",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "walls-linker-oevert-half-marathon-tbd",
+      "name": "WALLS Linker Oevert Half Marathon",
+      "location": "Anvers",
+      "date": "TBD",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "qbuild-arlon-marathon-2025-semi",
+      "name": "QBuild Arlon Marathon (Semi-Marathon)",
+      "location": "Arlon",
+      "date": "2025-09-14",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "nieuwpoort-marathon-2025-semi",
+      "name": "Nieuwpoort Marathon (Semi-Marathon)",
+      "location": "Nieuport",
+      "date": "2025-09-28",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "semi-marathon-de-l-ourthe-tbd",
+      "name": "Semi-Marathon de l'Ourthe",
+      "location": "Hamoir",
+      "date": "TBD",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "le-semi-de-la-province-de-liege-2025",
+      "name": "Le Semi de la Province de Liège",
+      "location": "Liège",
+      "date": "2025-10-19",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-bruges-2025-semi",
+      "name": "Marathon de Bruges (Semi-Marathon)",
+      "location": "Bruges",
+      "date": "2025-10",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-d-anvers-2025-semi",
+      "name": "Marathon d'Anvers (Semi-Marathon)",
+      "location": "Anvers",
+      "date": "2025-10",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "runners-lab-half-marathon-ghent-2026",
+      "name": "Runners' lab Half Marathon Ghent",
+      "location": "Gandbrugge",
+      "date": "2026-03",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-spa-francorchamps-2026-semi",
+      "name": "Marathon de Spa-Francorchamps (Semi-Marathon)",
+      "location": "Stavelot",
+      "date": "2026-03",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "marathon-de-gand-2026-semi",
+      "name": "Marathon de Gand (Semi-Marathon)",
+      "location": "Gand",
+      "date": "2026-03",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "baloise-marathon-de-namur-2026-semi",
+      "name": "Baloise Marathon de Namur (Semi-Marathon)",
+      "location": "Namur",
+      "date": "2026-04",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "european-running-championships-half-marathon-2026",
+      "name": "European Running Championships Half Marathon",
+      "location": "Bruxelles",
+      "date": "2026-04",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+      {
+      "id": "semi-marathon-de-dour-21km-be-tbd",
+      "name": "Semi-Marathon de Dour (21KM.be)",
+      "location": "Dour",
+      "date": null,
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "semi-marathon-des-deux-luxembourg-2025",
+      "name": "Semi-marathon des deux Luxembourg",
+      "location": "Beckerich, Luxembourg",
+      "date": "2025-05-01",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "run-saint-genese-2025-semi",
+      "name": "RUN-Saint-Genèse (Semi-Marathon)",
+      "location": "Sint-Genesius-Rode",
+      "date": "2025-05-01",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "belgian-front-memorial-trail-2025-semi",
+      "name": "Belgian Front Memorial Trail (Semi-Marathon approx.)",
+      "location": "Diksmuide, Mesen, Nieuwpoort",
+      "date": "2025-05",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    },
+    {
+      "id": "trailberg-2025-semi",
+      "name": "Trailberg (Semi-Marathon)",
+      "location": "Everberg",
+      "date": "2025-05-03",
+       "website": null,
+      "description": null,
+      "charity": {
+        "isCharityEvent": null,
+        "organization": null
+      },
+      "distances": [
+        "21.0975 km"
+      ],
+      "registrationPrice": null
+    }
+  ]
